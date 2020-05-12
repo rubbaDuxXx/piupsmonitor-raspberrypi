@@ -35,7 +35,7 @@ and reboot.
 ### Compile `piusvmonitor.c` ###
 
     mkdir -p usr/sbin
-    gcc -O -o usr/sbin/piupsmonitor src/piupsmonitor.c
+    gcc -O -o usr/sbin/piupsmonitor -li2c src/piupsmonitor.c
     
 ### Install config file ###
 
